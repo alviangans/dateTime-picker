@@ -1,16 +1,29 @@
-# azzamsample
+# DateTime Picker
 
-A new Flutter project.
+**DateTime Picker** adalah pustaka untuk memilih tanggal dan waktu di aplikasi Flutter dengan antarmuka yang intuitif dan mudah digunakan. Pustaka ini mempermudah integrasi pemilih tanggal dan waktu dalam aplikasi Flutter kamu.
 
-## Getting Started
+## Fitur
 
-This project is a starting point for a Flutter application.
+- **Pemilih Tanggal dan Waktu**: Memilih tanggal dan waktu dengan antarmuka pengguna yang ramah.
+- **Desain Kustomisasi**: Menyediakan opsi untuk kustomisasi tampilan dan perilaku pemilih.
+- **Integrasi Mudah**: Integrasi mudah dengan aplikasi Flutter menggunakan widget yang telah disediakan.
 
-A few resources to get you started if this is your first Flutter project:
+## Prasyarat
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Sebelum memulai, pastikan kamu telah menginstal [Flutter](https://flutter.dev/docs/get-started/install) dan memiliki [Dart SDK](https://dart.dev/get-dart) di sistem kamu.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Instalasi
+
+Ikuti langkah-langkah di bawah ini untuk menginstal dan menggunakan pustaka ini dalam proyek Flutter kamu:
+
+1. **Tambahkan dependensi ke `pubspec.yaml`**:
+   ```yaml
+   dependencies:
+     flutter:
+       sdk: flutter
+     date_time_picker: ^x.x.x # Ganti dengan versi terbaru
+2. Jalankan perintah berikut untuk menginstal dependensi:
+   ```yaml
+   flutter pub get
+Penggunaan
+Setelah menginstal pustaka, kamu dapat menggunakan DateTimePicker widget dalam aplikasi kamu. Berikut adalah contoh cara menggunakan widget ini:
